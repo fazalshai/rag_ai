@@ -6,6 +6,9 @@
       "use": "@vercel/python"
     }
   ],
+  "env": {
+    "FLASK_ENV": "production"
+  },
   "routes": [
     {
       "src": "/(.*)",
