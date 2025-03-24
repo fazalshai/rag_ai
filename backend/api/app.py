@@ -34,10 +34,6 @@ def fetch_youtube_videos(query):
         print(f"Error fetching YouTube videos: {e}")
         return []
 
-@app.route('/favicon.ico')
-def favicon():
-    return '', 204  # No Content response to stop 404 errors
-
 @app.route('/')
 def home():
     # This route renders the index page
